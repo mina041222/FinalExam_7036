@@ -250,7 +250,6 @@ public class PlayerController : MonoBehaviour {
     // 좌우 캐릭터 회전
     private void CharacterRotation()
     {
-        float _yRotation = Input.GetAxisRaw("Mouse X"); //마우스는 XY만 존재하고 X는 좌우를 뜻하므로 Mouse X로 선언한다
         Vector3 _characterRotationY = new Vector3(0f, _yRotation, 0f) * lookSensitivity;//상하와 좌우의 민감도를 같게 설정
         myRigid.MoveRotation(myRigid.rotation * Quaternion.Euler(_characterRotationY)); //vector3 값을 Quarternion으로 변환 , 즉 myRigid를 이용했으므로 그걸 이용해 케릭터를 음직이게 한다 
     }

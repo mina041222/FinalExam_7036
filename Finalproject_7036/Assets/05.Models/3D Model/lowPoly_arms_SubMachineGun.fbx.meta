@@ -120,7 +120,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Gun0_FireSight
+      name: Gun0_FineSight
       takeName: Armature|ArmatureAction
       internalID: 3696890337287820257
       firstFrame: 180
